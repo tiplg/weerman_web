@@ -1,0 +1,70 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.transition-all {
+  transition-property: all;
+  transition-duration: 400ms;
+}
+
+@font-face {
+  font-family: "icomoon";
+
+  src: url("icons.woff") format("woff");
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-raindrop:before {
+  content: "\e900";
+}
+.icon-raindrop1:before {
+  content: "\e901";
+}
+.icon-wind:before {
+  content: "\e902";
+}
+.icon-air-sock:before {
+  content: "\e903";
+}
+.icon-air-sock1:before {
+  content: "\e904";
+}
+.icon-tornado:before {
+  content: "\e905";
+}
+.icon-tornado1:before {
+  content: "\e906";
+}
+.icon-compass:before {
+  content: "\e907";
+}
+.icon-thermometer-quarter:before {
+  content: "\e908";
+}
+.icon-thermometer-half:before {
+  content: "\e909";
+}
+.icon-thermometer-three-quarters:before {
+  content: "\e90a";
+}
