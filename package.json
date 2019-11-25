@@ -6,7 +6,7 @@
   "scripts": {
     "build:css": "tailwind build src/style.css -o public/style.css",
     "build:postcss": "postcss src/style.css -o public/style.css",
-    "export": "ncp public/ ../PlatformIO/Windtracker/data"
+    "export": "ncp public/ ../weerman/data/www"
   },
   "keywords": [],
   "author": "",
